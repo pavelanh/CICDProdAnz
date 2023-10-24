@@ -21,7 +21,7 @@ jobs:
           ALGOSEC_TENANT_ID: ${{ secrets.ALGOSEC_TENANT_ID }}
           ALGOSEC_CLIENT_ID: ${{ secrets.ALGOSEC_CLIENT_ID }}
           ALGOSEC_CLIENT_SECRET: ${{ secrets.ALGOSEC_CLIENT_SECRET }}
-          WORKING_DIR: .
+          WORKING_DIR: /docker
           DOCKERFILE_NAME: Dockerfile
           MIN_LEVEL_TO_BLOCK_PR: 0
           CF_REGION: anz
